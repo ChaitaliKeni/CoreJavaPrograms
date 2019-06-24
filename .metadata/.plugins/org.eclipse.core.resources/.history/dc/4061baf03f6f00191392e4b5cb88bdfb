@@ -1,0 +1,13 @@
+package com.sona.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashmapUSingIterator {
+
+	public static void main(String[] args) {
+		Map map=new HashMap();
+		
+	}
+
+}

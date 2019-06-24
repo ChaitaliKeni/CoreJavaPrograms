@@ -1,0 +1,27 @@
+package com.sona.collections;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class HashmapUSingIterator {
+
+	public static void main(String[] args) {
+		Map map=new HashMap();
+		map.put(1,"Chaitu");
+		map.put(2,"Vaiju");
+		map.put(3,"Anvee");
+		map.put(1,"Pranu");
+		
+		Set set=map.entrySet();
+		Iterator itr=set.iterator();
+		while(itr.hasNext())
+		{
+			Map.Entry entry=(Entry) itr.next();
+		}
+		
+	}
+
+}
